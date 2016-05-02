@@ -10,9 +10,11 @@ namespace UnitConverterArrays
     {
         static void Main(string[] args)
         {
-
-            double miles = 0.62137;
-
+            double input = 4;
+            double mileConvert = 0.62137;
+            float miles = (float)input * (float)mileConvert;
+            Console.WriteLine(miles);
+            Console.ReadLine();
 
         }
     }
